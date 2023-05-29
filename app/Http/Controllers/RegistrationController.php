@@ -19,8 +19,6 @@ class RegistrationController extends Controller
             'password' => 'required|string|min:8',
         ]);
 
-        // Process the registration and store the user in the database
-
-        // Return a success response or redirect to a success page
+        return view('SuccReg', ['succMSG' => 'Registration Successful!']);
     }
 }
