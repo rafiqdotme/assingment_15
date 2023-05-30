@@ -15,7 +15,7 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
 
-//        Assignment Task 3: Global Middleware
+        // Assignment Task 3: Global Middleware
         \App\Http\Middleware\LogRequest::class,
 
         // \App\Http\Middleware\TrustHosts::class,

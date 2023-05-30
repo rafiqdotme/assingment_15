@@ -14,16 +14,17 @@ Route::get('/', function () {
 });
 Route::get('/register', [RegistrationController::class,'showRegistrationForm']);
 Route::post('/register', [RegistrationController::class, 'store'])->name('register');
-//__________________________________________________________________________________________
+//_____________________________________________________________________________________________
 
 
 //Task 2: Request Redirect
 Route::get('/home', function () {
     return redirect('/dashboard', 302);
 });
-Route::get('/home', function () {
+Route::get('/dashboard', function () {
     return view('redirect', ['redirectCode' => 302]);
 });
+//_____________________________________________________________________________________________
 
 
 //Task 4: Route Middleware Group
@@ -36,17 +37,11 @@ Route::middleware([AuthMiddleware::class])->group(function () {
         // Settings route logic
     });
 });
-
-
-//Task 6: Single Action Controller
-Route::post('/contact', ContactController::class)->name('contact');
-
-
-//Task 7: Resource Controller
-Route::resource('posts', PostController::class);
+//_____________________________________________________________________________________________
 
 
 //Task 8: Blade Template Engine
 Route::get('/welcome', function(){
     return view('welcome');
 });
+//_____________________________________________________________________________________________
