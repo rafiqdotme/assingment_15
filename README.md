@@ -8,7 +8,8 @@ Hop you find your answer.
 ```
 ## Task 2: Request Redirect
 ```
-Go to Browser and go to the URL http://127.0.0.1:8000/home. Hop you find your answer.
+Go to Browser and go to the URL http://127.0.0.1:8000/home.
+Hop you find your answer.
 ```
 ## Task 3: Global Middleware
 ```
