@@ -2,10 +2,10 @@
 please clone this git and and run the command "composer install" in the root directory and run "php artisan serve --port=8000" for start the application.
 
 ## Task 1: Request Validation-
-    Open your Browser and go to the URL "http://127.0.0.1:8000". I hope you may find your answer.
+    Open your Browser and go to the URL "http://127.0.0.1:8000". Hop you find your answer.
 
 ## Task 2: Request Redirect-
-    Go to Browser and go to the URL "http://127.0.0.1:8000/home". I hope you may find your answer.
+    Go to Browser and go to the URL "http://127.0.0.1:8000/home". Hop you find your answer.
 
 ## Task 3: Global Middleware-
     Go to the project directory then-
@@ -20,15 +20,15 @@ please clone this git and and run the command "composer install" in the root dir
 
 ## Task 5: Controller-
     Go to the project directory then go to app->Http->Controllers->ProductController.php
-    Hops you find your answer.
+    Hop you find your answer.
 
 ## Task 6: Single Action Controller-
     Go to the project directory then go to app->Http->Controllers->ContactController.php
-    Hops you find your answer.
+    Hop you find your answer.
 
 ## Task 7: Resource Controller-
     Go to the project directory then go to app->Http->Controllers->PostController.php
-    Hops you find your answer.
+    Hop you find your answer.
 
 ## Task 8: Blade Template Engine-
     Go to the project directory then open routes->web.php file and Check the line 44-46
