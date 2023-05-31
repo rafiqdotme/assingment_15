@@ -3,12 +3,12 @@
 
 ## Task 1: Request Validation
 ```
-Open your Browser and go to the URL [Rafiq](http://127.0.0.1:8000).
+Open your Browser and go to the http://127.0.0.1:8000
 Hop you find your answer.
 ```
 ## Task 2: Request Redirect
 ```
-Go to Browser and go to the URL <a href="http://127.0.0.1:8000/home">http://127.0.0.1:8000/home</a>. Hop you find your answer.
+Go to Browser and go to the URL http://127.0.0.1:8000/home. Hop you find your answer.
 ```
 ## Task 3: Global Middleware
 ```
