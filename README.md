@@ -1,11 +1,20 @@
 # About Assignment
-*please clone this git and and run the command "composer install" in the root directory and run "php artisan serve --port=8000" for start the application.*
+*please clone this git, go to root directory and run the following command*
+```
+composer install
+```
+*then run*
+```
+php artisan serve --port=8000
+```
+*for start this application.*
 
 ## Task 1: Request Validation
+Open your Browser and go to the following command*
 ```
-Open your Browser and go to the http://127.0.0.1:8000
+http://127.0.0.1:8000
+```
 Hop you find your answer.
-```
 ## Task 2: Request Redirect
 ```
 Go to Browser and go to the URL http://127.0.0.1:8000/home.
