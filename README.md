@@ -19,13 +19,17 @@ please clone this git and and run the command "composer install" in the root dir
     02. check app->Http->Middleware->AuthMiddleware.php file.
 
 ## Task 5: Controller-
-    Go to the project directory then go to app->Http->Controllers->ProductController.php. Hops you find your answer.
+    Go to the project directory then go to app->Http->Controllers->ProductController.php
+    Hops you find your answer.
 
 ## Task 6: Single Action Controller-
-    Go to the project directory then go to app->Http->Controllers->ContactController.php. Hops you find your answer.
+    Go to the project directory then go to app->Http->Controllers->ContactController.php
+    Hops you find your answer.
 
 ## Task 7: Resource Controller-
-    Go to the project directory then go to app->Http->Controllers->PostController.php. Hops you find your answer.
+    Go to the project directory then go to app->Http->Controllers->PostController.php
+    Hops you find your answer.
 
 ## Task 8: Blade Template Engine-
-    Go to the project directory then open routes->web.php file and Check the line 44-46. Or you may go to http://127.0.0.1:8000/welcome on your browser.
+    Go to the project directory then open routes->web.php file and Check the line 44-46
+    Or you may go to http://127.0.0.1:8000/welcome on your browser.
